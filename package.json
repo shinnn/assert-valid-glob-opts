@@ -1,0 +1,41 @@
+{
+  "name": "assert-valid-glob-opts",
+  "version": "0.1.0",
+  "description": "Assert a given object is a valid glob option",
+  "repository": "shinnn/assert-valid-glob-opts",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --format=codeframe index.js test.js",
+    "test": "node --throw-deprecation test.js",
+    "coverage": "istanbul cover --print=both test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "glob",
+    "option",
+    "validate",
+    "invalidate",
+    "check",
+    "type",
+    "error",
+    "throw",
+    "assert",
+    "assertion",
+    "strict"
+  ],
+  "dependencies": {
+    "validate-glob-opts": "^0.2.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "^3.0.0",
+    "eslint": "^3.14.0",
+    "istanbul": "^0.4.5",
+    "tape": "^4.6.3"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn/node-legacy"
+  }
+}
