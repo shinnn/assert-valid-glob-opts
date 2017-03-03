@@ -1,6 +1,6 @@
 {
   "name": "assert-valid-glob-opts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Assert a given object is a valid glob option",
   "repository": "shinnn/assert-valid-glob-opts",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -27,7 +27,7 @@
     "strict"
   ],
   "dependencies": {
-    "validate-glob-opts": "^0.2.0"
+    "validate-glob-opts": "^0.2.1"
   },
   "devDependencies": {
     "@shinnn/eslint-config-node": "^3.0.0",
