@@ -22,7 +22,7 @@ test('assertValidGlobOpts()', t => {
 
   t.throws(
     () => main({cache: {'1': 2}, realPath: true}),
-    /^Error: 2 errors found in the node-glob options:\n.* {2}1\. .*\n {2}2\. .*/,
+    /^Error: 2 errors found in the glob options:\n.* {2}1\. .*\n {2}2\. .*/,
     'should throw an error with multiple lines when the object inludes multiple invalid values.'
   );
 
@@ -34,4 +34,3 @@ test('assertValidGlobOpts()', t => {
 
   t.end();
 });
-

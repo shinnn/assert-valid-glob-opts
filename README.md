@@ -14,7 +14,7 @@ assertValidGlobOpts({
 ```
 
 ```
-TypeError: 2 errors found in the node-glob options:
+TypeError: 2 errors found in the glob options:
   1. `sync` option is deprecated and there’s no need to pass any values to that option, but true was provided.
   2. node-glob expected `ignore` option to be an array or string, but got /node_modules/.
     at assertValidGlobOpts (/Users/shinnn/example/index.js:29:9)
