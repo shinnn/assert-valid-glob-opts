@@ -43,9 +43,10 @@ npm install assert-valid-glob-opts
 const assertValidGlobOpts = require('assert-valid-glob-opts');
 ```
 
-### assertValidGlobOpts(*obj*)
+### assertValidGlobOpts(*obj* [, *customValidations*])
 
 *obj*: `Object` ([`glob` options](https://github.com/isaacs/node-glob#options))  
+*customValidations*: `Array<Function>` (passed to [`validate-glob-opts`](https://github.com/shinnn/validate-glob-opts#validategloboptsobj--customvalidations))
 
 It validates a given object with [validate-glob-opts](https://github.com/shinnn/validate-glob-opts) and throws an error if the value is not valid.
 
