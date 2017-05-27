@@ -9,7 +9,7 @@
     "test": "node --throw-deprecation test.js",
     "coverage": "istanbul cover --print=both test.js"
   },
-  "license": "MIT",
+  "license": "CC0-1.0",
   "files": [
     "index.js"
   ],
