@@ -1,6 +1,6 @@
 {
   "name": "assert-valid-glob-opts",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Assert a given object is a valid glob option",
   "repository": "shinnn/assert-valid-glob-opts",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
