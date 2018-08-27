@@ -8,11 +8,11 @@ const GlobOptionError = require('glob-option-error');
 const validateGlobOpts = require('validate-glob-opts');
 
 module.exports = function assertValidGlobOpts(...args) {
-  const results = validateGlobOpts(...args);
+	const results = validateGlobOpts(...args);
 
-  if (results.length === 0) {
-    return;
-  }
+	if (results.length === 0) {
+		return;
+	}
 
-  throw new GlobOptionError(results);
+	throw new GlobOptionError(results);
 };
